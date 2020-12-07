@@ -1,0 +1,113 @@
+@media only screen and (max-width: 768px) {
+
+  ul.navbar-nav {
+      margin: 35px 0px;
+  }
+
+  .mainbanner-text h2
+   {
+    font-size:40px;
+  }
+  .mainbanner-text h5
+   {
+    font-size:20px;
+  }
+  .mainbanner-text p
+   {
+    font-size:17px;
+  }
+  .main-banner .navbar img {
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    left: 10px;
+    top: 0px;
+}
+  .join-now p{
+    font-size:18px;
+  }
+  .social-media{
+
+    text-align: center;
+  }
+  .whyuse-icon .col-md-4:nth-child(-n+2){
+    border-right:none;
+  }
+  .menu{
+
+    display: flex;
+  justify-content: space-between;
+  }
+  .menu a{
+     justify-content: center;
+
+  }
+  .menu a:nth-child(-n+2){
+    border-right:none;
+  }
+  .top-iletisim{
+    display: flex;
+    justify-content: space-between;
+  }
+  .testimonials .profil {
+    border-radius: 50px;
+    background-color: white;
+    width: 80px;
+    height: 80px;
+    position: relative;
+    bottom: 40px;
+    border: 5px solid #e3e3e3;
+    float: left;
+}
+
+}
+@media (min-width:769px) and (max-width: 992px) {
+  .social-media i{
+    font-size: 20px;
+    width: 34px;
+    height: 36px;
+    border-radius: 25px;
+    padding: 10px;
+  }
+  .testimonials .row h5 {
+    position: relative;
+    margin-top: 0px;
+    color: white;
+}
+.testimonials .profil {
+    border-radius: 50px;
+    background-color: white;
+    width: 80px;
+    height: 80px;
+    position: relative;
+    bottom: 40px;
+    border: 5px solid #e3e3e3;
+    float: left;
+}
+
+}
+@media screen and (min-width: 768px) {
+    .top .menu{
+      float:right;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+  .top .menu {
+    display: block;
+    float: left;
+  }
+  .top-iletisim {
+    display: block;
+    float: left;
+    position: relative;
+    right: 40px;
+}
+
+}
+@media only screen and (max-width: 325px) {
+  .testimonials .profil {
+    position: relative;
+    left: 0px;
+}
+}
